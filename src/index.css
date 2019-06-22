@@ -1,12 +1,12 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-image: url('./images/Date-Genie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
   height: 100%;
-  background-image: url('./images/Date-Genie.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body {
