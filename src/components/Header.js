@@ -6,14 +6,14 @@ class Header extends Component {
     return (
       <>
         <header className="the-top">
-          <nav classname="navbar">
-            <Link className="START" to={`./pages/Filter`}>
+          <nav className="navbar">
+            <Link className="START" to={`./pages/Filter.js`}>
               START
             </Link>
-            <Link className="VISITED" to={`./pages/BeenThere`}>
+            <Link className="VISITED" to={`./pages/BeenThere.js`}>
               VISITED
             </Link>
-            <Link className="ABOUT" to={`./pages/About`}>
+            <Link className="ABOUT" to={`./pages/About.js`}>
               ABOUT
             </Link>
           </nav>
