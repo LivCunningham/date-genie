@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import Header from '../components/Header.js'
 
-class DrinkEatFun extends Component {
+class About extends Component {
   render() {
     return (
       <>
         <Header />
-        REVIEW DRINK,EAT,FUN HERE.
+        About OPTIONS HERE
       </>
     )
   }
 }
 
-export default DrinkEatFun
+export default About

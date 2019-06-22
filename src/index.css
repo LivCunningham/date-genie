@@ -4,13 +4,14 @@
 
 html {
   height: 100%;
+  background-image: url('./images/Date-Genie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
-  background-image: url('./images/Date-Genie.jpg');
-  background-size: cover;
+  height: 100%;
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -21,4 +22,28 @@ body {
   display: flex;
   justify-items: center;
   margin-left: 2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #000000;
+  margin: 0;
+}
+
+.START {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.VISITED {
+  margin-right: 2rem;
+}
+
+nav {
+  color: whitesmoke;
+  font-family: Arial, bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

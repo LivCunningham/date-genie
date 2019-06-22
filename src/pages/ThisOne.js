@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import axios from 'axios'
+import Header from '../components/Header.js'
 
 class ThisOne extends Component {
   render() {
-    return <>TAKE A CLOSER LOOK HERE.</>
+    return (
+      <>
+        <Header />
+        TAKE A CLOSER LOOK HERE.
+      </>
+    )
   }
 }
 
