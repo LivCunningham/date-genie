@@ -8,7 +8,7 @@ class Login extends Component {
         <img className="logo" src={logo} alt="Capture2" />
         <div className="login">
           <input className="user-name" placeholder="Email Address" />
-          <input className="password" placeholder="Pasword" />
+          <input className="password" placeholder="Password" />
           <button className="login-button">Dream Date Wishes</button>
           <p className="recover-login">Don't have access to your account? </p>
         </div>
